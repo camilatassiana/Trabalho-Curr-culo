@@ -1,0 +1,65 @@
+/* Faz a alteração das letras (fonte e cor), tira a margem e o espaço interno */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #0a2f64;
+}
+ /* Faz a imagem ocupar 100% da largura*/
+#imagem {
+    width: 100%;
+}
+ /* Faz a alteração do cabeçalho */
+header {
+    background: #0a2f64;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+ /* Tira a margem e o espaço interno dos links */
+nav {
+    margin: 0;
+    padding: 0;
+}
+ /* Faz a alteração das cores, margem e a fonte dos links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+ /* Altera o tamanho do espaçamento interno e mínimo de altura */
+.section {
+    padding: 20px;
+    min-height: 100px;
+}
+ /* Tira o topo da margem */
+.section h2 {
+    margin-top: 0;
+}
+ /* Máximo de largura do formulário e margem automática */
+form {
+    max-width: 600px;
+    margin: auto;
+}
+ /* Alteração dos quadrados do formulário */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+ /* Alteração e edição dos botões do formulário */
+form button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ /* Fundo do botão do formulário */
+form button:hover {
+    background: #555;
+}
